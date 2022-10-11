@@ -1,0 +1,35 @@
+https://github.com/callstack/react-native-testing-library
+
+npm install --save-dev @testing-library/react-native --legacy-peer-deps
+npm install --save-dev @testing-library/jest-native --legacy-peer-deps
+
+
+https://docs.expo.dev/guides/testing-with-jest/
+
+npm install jest-expo jest --legacy-peer-deps
+npm install --save-dev react-test-renderer@17 --legacy-peer-deps
+
+
+https://kenjdavidson.com/writing/2020/11/02/react-native-typescript-jest
+
+npm install --save-dev jest ts-jest @types/jest --legacy-peer-deps
+
+
+https://www.npmjs.com/package/jest-styled-components
+
+npm install jest-styled-components --legacy-peer-deps
+
+
+
+
+No package.json
+
+
+"scripts": {
+  ...
+  "test": "jest"
+},
+"jest": {
+  "preset": "jest-expo"
+  "setupFilesAfterEnv": ["@testing-library/jest-native/extend-expect"]
+}
