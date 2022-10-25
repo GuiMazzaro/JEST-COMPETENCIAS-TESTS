@@ -7,7 +7,7 @@
     "android": "expo run:android",
     "ios": "expo run:ios",
     "web": "expo start --web",
-    "test": "jest"
+    "test": "jest --watchAll --runInBand --detectOpenHandles"
   },
   "dependencies": {
     "@react-native-async-storage/async-storage": "~1.17.3",

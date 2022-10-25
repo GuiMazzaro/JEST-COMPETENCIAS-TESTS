@@ -12,7 +12,7 @@ export function Conhecimento({ propsDescricao, propsNivel, propsExcluir }) {
   return (
     <Conteiner>
 
-      <Descricao>{`${propsDescricao}\n${propsNivel}`}</Descricao>
+      <Descricao testID="text-descricao">{`${propsDescricao}\n${propsNivel}`}</Descricao>
 
       <Botao onPress={propsExcluir}>
           <Icone name="delete"/>

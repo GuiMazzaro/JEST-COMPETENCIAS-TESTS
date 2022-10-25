@@ -4,7 +4,7 @@ import { View, Text, TextInput, Button } from "react-native";
 export function Teste(){
     return(
         <View>
-            <Text>Testes com Jest</Text>
+            <Text testID="text-titulo">Testes com Jest</Text>
             <TextInput
                 testID="input-nome"
                 placeholder="Nome"
